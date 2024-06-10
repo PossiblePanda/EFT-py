@@ -1,0 +1,6 @@
+- Hi
+
+background_color : 255,255,255 : Color
+title : "Hi" : String
+number : 5 : Int
+enabled : true : Bool
