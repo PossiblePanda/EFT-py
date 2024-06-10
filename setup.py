@@ -6,8 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name='eft',
-    packages=find_packages(include=['eft']),
+    name='eft-py',
     version=eft_version,
     description='A python library for easily creating themes for your applications.',
     long_description=long_description,
@@ -19,5 +18,5 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3.12',
     ],
-    package_data={"eft": ["VERSION"]},
+    package_data={"eft-py": ["VERSION"]},
 )
